@@ -14,7 +14,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#AAAAAA"
+				"foreground": "#888888"
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AAAAAA"
+				"foreground": "#888888"
 			}
 		},
 		{
@@ -39,7 +39,7 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#ff0000"
 			}
 		},
 		{
@@ -67,7 +67,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"fontStyle": "",
+				"foreground": "#0000ff"
 			}
 		},
 		{
@@ -78,7 +79,8 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"fontStyle": "italic",
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -109,7 +111,6 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#7A3E9D"
 			}
 		},
@@ -128,19 +129,11 @@
 			}
 		},
 		{
-			"name": "Characters",
+			"name": "Numbers, Characters",
 			"scope": [
+				"constant.numeric",
 				"constant.character",
 				"constant"
-			],
-			"settings": {
-				"foreground": "#AB6526"
-			}
-		},
-		{
-			"name": "Numbers",
-			"scope": [
-				"constant.numeric"
 			],
 			"settings": {
 				"foreground": "#039a9a"
@@ -157,6 +150,7 @@
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#777777"
 			}
 		},
