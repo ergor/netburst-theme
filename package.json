@@ -14,7 +14,7 @@
             {
                 "label": "netburst theme",
                 "uiTheme": "vs",
-                "path": "./themes/netburst theme-color-theme.json"
+                "path": "./themes/netburst_theme-color-theme.json"
             }
         ]
     }
